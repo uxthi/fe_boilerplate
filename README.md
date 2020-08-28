@@ -1,2 +1,3 @@
 # fe_boilerplate
-Um boilerplate FE feito com CRA :)
+
+Boilerplate Front-end
