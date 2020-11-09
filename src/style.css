@@ -1,0 +1,27 @@
+@font-face {
+  @import url("https://fonts.googleapis.com/css?family=Teko&display=swap");
+  font-family: "Teko", sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.MuiInputBase-root {
+  font-family: sans-serif !important;
+}
+
+.MuiFormControl-marginNormal {
+  width: 100%;
+}
