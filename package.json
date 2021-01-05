@@ -7,7 +7,6 @@
     "@material-ui/icons": "^4.9.1",
     "axios": "^0.20.0",
     "cross-env": "^7.0.2",
-    "moment": "^2.29.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-hot-loader": "^4.12.20",
@@ -29,7 +28,7 @@
     "scheduler": "0.14.0"
   },
   "scripts": {
-    "start": "cross-env REACT_APP_API_ENV=development react-scripts start"
+    "start": "react-scripts start"
   },
   "eslintConfig": {
     "extends": "react-app"
