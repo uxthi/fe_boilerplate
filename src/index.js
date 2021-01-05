@@ -6,7 +6,6 @@ import ErrorBoundary from './components/error-boundary'
 import { TemplateProvider } from './components/template/provider'
 import { Navigation } from './navigation'
 
-import './config'
 import './style.css'
 
 const render = () => {

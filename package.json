@@ -29,8 +29,7 @@
     "scheduler": "0.14.0"
   },
   "scripts": {
-    "start": "cross-env REACT_APP_API_ENV=development react-scripts start",
-    "test": "react-scripts test"
+    "start": "cross-env REACT_APP_API_ENV=development react-scripts start"
   },
   "eslintConfig": {
     "extends": "react-app"
