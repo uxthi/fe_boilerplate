@@ -7,12 +7,13 @@ Below you will find everything you need to understand, install and run this proj
 - [Installing](#installing)
 - [Sending Feedback](#sending-feedback)
 - [Folder Structure](#folder-structure)
-- [Available Scripts](#available-scripts)
+- [Using mobible Context](#using-mobile-context)
 
 ## Installing
 
 * Clone the project using `git clone https://github.com/uxthi/fe_boilerplate.git`.
 * Navigate to the root folder where you installed this project and install all dependencies with `yarn install`.
+* Run `yarn start` and your project is now running on localhost:3000!
 
 ## Sending Feedback
 
@@ -47,6 +48,26 @@ fe_boilerplate/
     utils/
 ```
 
-## Available Scripts
+## Using isMobile Context
 
-* Run the project using `yarn start` (we're using cross-env to make sure you won't have any problems working with mac or pc).
+We're using context to let the app know when the user is on mobile or desktop, so you can develop components that will only be shown in one case or another.
+
+To use this feature, follow these steps on your functional or class component:
+
+* `import { useContext } from 'react'`
+* `import { TemplateContext } from '../../components/template/context'`
+* Declare an isMobile constant as `const { isMobile } = useContext(TemplateContext)`
+
+You will now be able to check for mobile view, such as: `{isMobile ? <p>This is mobile</p> : <p>This is desktop</p>}`
+
+```jsx
+import React, { useContext } from 'react'
+import { Template } from '../../components/template'
+import { TemplateContext } from '../../components/template/context'
+
+export const Example = () => {
+  const { isMobile } = useContext(TemplateContext)
+
+  return <Template>{isMobile ? <p>This will be shown only on mobile</p> : <p>This will be shown only on desktop</p>}</Template>
+}
+```
