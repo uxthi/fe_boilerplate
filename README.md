@@ -1,7 +1,3 @@
-This is a front-end boilerplate bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
-
-Below you will find everything you need to understand, install and run this project.<br>
-
 ## Table of Contents
 
 - [Installing](#installing)
