@@ -1,6 +1,6 @@
 {
   "name": "fe_boilerplate",
-  "version": "1.0.0",
+  "version": "0.2.0",
   "private": false,
   "dependencies": {
     "@material-ui/core": "^4.9.9",
@@ -9,7 +9,6 @@
     "cross-env": "^7.0.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-hot-loader": "^4.12.20",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^4.0.3",
@@ -27,21 +26,10 @@
     "pretty-quick": "^3.0.2"
   },
   "scripts": {
-    "start": "react-scripts start"
+    "start": "react-scripts start",
+    "build": "react-scripts-build"
   },
   "eslintConfig": {
     "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
   }
 }
