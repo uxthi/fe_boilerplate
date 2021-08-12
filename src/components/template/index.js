@@ -1,11 +1,11 @@
-import React from 'react'
-// import React, { useContext } from 'react'
-// import { TemplateContext } from '../../components/template/context'
+import React, { useContext } from 'react'
+import { TemplateContext } from './context'
 import { View } from './style'
 
-export const Template = (props) => {
-  // const { isMobile } = useContext(TemplateContext)
-
-  // return <View>{isMobile ? 'Isso é Boilerplate mobile' : props.children}</View>
-  return <View>{props.children}</View>
+const Template = (props) => {
+  const { children } = props
+  const { isMobile } = useContext(TemplateContext)
+  return <View>{isMobile ? 'Isso é Boilerplate mobile' : children}</View>
 }
+
+export default Template

@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { Template } from '../../components/template'
+import Template from '../../components/template'
 import { TemplateContext } from '../../components/template/context'
 
 export const Example = () => {

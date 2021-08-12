@@ -1,6 +1,6 @@
 @font-face {
-  @import url("https://fonts.googleapis.com/css?family=Teko&display=swap");
-  font-family: "Teko", sans-serif;
+  @import url('https://fonts.googleapis.com/css?family=Teko&display=swap');
+  font-family: 'Teko', sans-serif;
 }
 
 body {
@@ -14,8 +14,7 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
 .MuiInputBase-root {
